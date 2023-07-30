@@ -1,0 +1,33 @@
+//macros for virtual machine instructions, needed also for making binary code
+#define POP 1
+#define PUSH_CONST 2
+#define PUSH_VAR 3
+#define ADD 4
+#define SUB 5
+#define MUL 6
+#define DIV 7
+#define GREATER 8
+#define GREATER_EQUAL 9
+#define LESS 10
+#define LESS_EQUAL 11
+#define A_INCREMENT 12
+#define Z_INCREMENT 13
+#define A_DECREMENT 14
+#define Z_DECREMENT 15
+#define JUMP 16
+#define JUMPIFFALSE 17
+#define JUMPIFTRUE 18
+#define FUNCTION 20
+#define CALL 21
+#define END_FUN 22
+#define PRINT_STR 23
+#define END_PROGRAM 24
+#define GET_INPUT 25
+#define PRINT_VAR 26
+#define DEFINE_GLOBAL 27
+#define DEFINE_LOCAL 28
+#define PUSH_RET 29
+#define POP_RET 30
+#define EQUAL 31
+#define NOT_EQUAL 32
+
