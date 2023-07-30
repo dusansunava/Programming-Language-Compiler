@@ -1,0 +1,5 @@
+local x$
+print_str("Zadajte vstup:")$
+x = get_input()$
+print_str("Vas vstupu:")$
+print_var(x)$

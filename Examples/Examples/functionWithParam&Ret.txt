@@ -1,0 +1,17 @@
+function plochaObdlznika(a; b) {
+	local vysledok$
+	vysledok = a * b$
+	return vysledok$
+}$
+
+local x$
+local y$
+local plocha$
+print_str("Zadajte dlzku obdlznika:")$
+x = get_input()$
+print_str("Zadajte sirku obdlznika:")$
+y = get_input()$
+plocha = plochaObdlznika(x; y)$
+print_str("Plocha daneho obdlznika:")$
+print_var(plocha)$
+

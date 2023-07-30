@@ -1,0 +1,28 @@
+local x$
+local result$
+x = 5$
+
+print_str("Less")$
+result = x < 5$
+print_var(result)$
+
+print_str("Less or equals")$
+result = x <= 5$
+print_var(result)$
+
+print_str("Equals")$
+result = x == 5$
+print_var(result)$
+
+print_str("Not equal")$
+result = x != 5$
+print_var(result)$
+
+print_str("Greater or equals")$
+result = x >= 5$
+print_var(result)$
+	 
+print_str("Greater")$
+result = x > 5$
+print_var(result)$
+

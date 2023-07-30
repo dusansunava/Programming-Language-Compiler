@@ -1,0 +1,22 @@
+local x$
+print_str("1+1")$
+x = 1+1$
+print_var(x)$
+print_str("10-5")$
+x = 10-5$
+print_var(x)$
+print_str("3*3")$
+x = 3*3$
+print_var(x)$
+print_str("21/7")$
+x = 21/7$
+print_var(x)$
+print_str("x = 5; x++")$
+x = 5$
+x++$
+print_var(x)$
+print_str("x = 5; x--")$
+x = 5$
+x--$
+print_var(x)$
+

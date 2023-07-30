@@ -1,0 +1,6 @@
+function hello() {
+	print_str("Hello world!")$
+}$
+	 
+hello()$
+

@@ -1,0 +1,17 @@
+local x$
+x = 5$
+
+print_str("x == 5")$
+if [ x == 5 ] then {
+	print_str("is equal")$
+} else {
+	print_str("is not equal")$
+}$
+
+print_str("x == 10")$
+if [ x == 10 ] then {
+	print_str("is equal")$
+} else {
+	print_str("is not equal")$
+}$
+

@@ -1,0 +1,12 @@
+function testVariablesGlobal() {
+	global x$
+	x = 10$
+}$
+
+function testVariablesGlobalSec() {
+	print_var(x)$
+}$
+
+testVariablesGlobal()$
+testVariablesGlobalSec()$
+

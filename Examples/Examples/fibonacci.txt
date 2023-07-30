@@ -1,0 +1,37 @@
+function fibonacci(n) {
+	if [ n == 0 ] then {
+		return 0$
+	} else {
+		if [ n == 1 ] then {
+			return 1$
+		} else {
+			local a$
+			local b$
+			local sucet$
+			n--$
+			a = fibonacci(n)$
+			n--$
+			b = fibonacci(n)$
+			sucet = a + b$
+			return sucet$
+		}$
+ 
+	}$
+}$
+
+local vysledok$
+local x$
+local i$
+i = 0$
+print_str("/// Fibonacciho postupnost ///")$
+print_str("Zadajte pocet prvkov postupnosti:")$
+x = get_input()$
+do {
+	vysledok = fibonacci(i)$
+	print_str("Pre cislo:")$
+	print_var(i)$
+	print_str("Vysledok:")$
+	print_var(vysledok)$
+	i++$
+} while [ i < x]$
+

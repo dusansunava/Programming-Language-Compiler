@@ -1,0 +1,16 @@
+local x$
+local y$
+x = 0$
+y = 0$
+print_str("While-do:")$
+while [ x < 10 ] do {
+	print_var(x)$
+	x++$
+}$
+	 
+print_str("Do-while:")$
+do {
+	print_var(y)$
+	y++$
+} while [ y < 10]$
+

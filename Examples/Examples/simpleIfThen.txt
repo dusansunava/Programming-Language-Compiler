@@ -1,0 +1,7 @@
+local x$
+x = 10$
+if [ x < 20 ] then {
+	x = 15 $
+}$
+print_var(x)$
+

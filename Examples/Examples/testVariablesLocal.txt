@@ -1,0 +1,12 @@
+function testVariablesLocal() {
+	local x$
+	x = 10$
+}$
+	 
+function testVariablesLocalSec() {
+	print_var(x)$
+}$
+	 
+testVariablesLocal()$
+testVariablesLocalSec()$
+
